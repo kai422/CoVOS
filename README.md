@@ -1,9 +1,10 @@
-# CoVOS: Accelerating Video Object Segmentation with Compressed Video
+# [CoVOS](https://arxiv.org/abs/2107.12192)
 
-[Kai Xu](#), [Angela Yao](https://www.comp.nus.edu.sg/~ayao/)
+Offical PyTorch implementation of **CoVOS**:
 
-Computer Vision and Machine Learning group, NUS.
-
+[Accelerating Video Object Segmentation with Compressed Video](https://arxiv.org/abs/2107.12192), CVPR'22.    
+[Kai Xu](#), [Angela Yao](https://www.comp.nus.edu.sg/~ayao/)    
+Computer Vision and Machine Learning group, NUS.   
 \[[PDF](https://arxiv.org/abs/2107.12192)\] \[[Project Page](https://kai422.github.io/CoVOS/)\]
 
 
@@ -35,8 +36,6 @@ cmake -DCMAKE_BUILD_TYPE=RELEASE ..
 make -j9
 make DESTDIR={install_path} install
 ```
- 
-
 * Use pre-compiled binary files for ubuntu 18.04 at [decoder/bin/hevc](decoder/bin). You don't need to update the path.
 
 
@@ -88,8 +87,6 @@ bash scripts/encode_video_ytvos.sh
 ```
 Encoded videos will be stored at `{data_path}/DAVIS/HEVCVideos` and `{data_path}/YouTube-VOS/HEVCVideos`.
 
-Or you could choose to download our pre-encoded video from: #
-
 
 
 ## Running
@@ -110,7 +107,6 @@ RESULT_PATH=results/covos_mivos/dv2016 DSET=dv2016val python evaluate_from_folde
 CUDA_VISIBLE_DEVICES=0 scripts/exps/covos_dv2016_stcn.sh
 RESULT_PATH=results/covos_stcn/dv2016 DSET=dv2016val python evaluate_from_folder.py 
 
-#---------------------------------------------
 
 # DAVIS17, base model: stm
 CUDA_VISIBLE_DEVICES=0 scripts/exps/covos_dv2017_stm.sh
@@ -128,7 +124,6 @@ RESULT_PATH=results/covos_mivos/dv2017 DSET=dv2017val python evaluate_from_folde
 scripts/exps/covos_dv2017_stcn.sh
 RESULT_PATH=results/covos_stcn/dv2017 DSET=dv2017val python evaluate_from_folder.py
 
-#---------------------------------------------
 
 #Youtube-VOS 2018, base model: frtm
 CUDA_VISIBLE_DEVICES=0 scripts/exps/covos_yt2018_frtm.sh
@@ -139,10 +134,6 @@ CUDA_VISIBLE_DEVICES=0 scripts/exps/covos_yt2018_mivos.sh
 # Youtube-VOS 2018, base model: stcn
 CUDA_VISIBLE_DEVICES=0 scripts/exps/covos_yt2018_stcn.sh
 ```
-
-We included [`FRTM-VOS`](https://github.com/andr345/frtm-vos), [`STM`](https://github.com/seoungwugoh/STM), [`MiVOS`](https://github.com/hkchengrex/MiVOS). [`STCN`](https://github.com/hkchengrex/STCN) in the [`model_zoo`](model_zoo) and [`segmentor`](segmentor). You can also add your own base model.
-
-
 
 ## Training
 
