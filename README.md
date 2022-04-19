@@ -1,8 +1,8 @@
-# [Accelerating Video Object Segmentation with Compressed Video](https://arxiv.org/abs/2107.12192)
+# Accelerating Video Object Segmentation with Compressed Video
 
 This is an offical PyTorch implementation of 
 >**Accelerating Video Object Segmentation with Compressed Video. CVPR 2022.**  
-\[[ArXiv](https://arxiv.org/abs/2107.12192)\] \[[Project Page](https://kai422.github.io/CoVOS/)\]  
+\[[arXiv](https://arxiv.org/abs/2107.12192)\] \[[Project Page](https://kai422.github.io/CoVOS/)\]  
 [Kai Xu](#), [Angela Yao](https://www.comp.nus.edu.sg/~ayao/)    
 Computer Vision and Machine Learning group, NUS.   
 
