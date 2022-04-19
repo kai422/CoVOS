@@ -1,0 +1,38 @@
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Noto Serif', serif;
+    color: #043361;
+
+}
+
+p,a,input,label,textarea,span,ul,li{
+    font-family: 'Noto Serif', serif;
+}
+
+
+.container{
+    height:70vh;
+}
+
+h1{
+    font-size:32px;
+    line-height: 1.5;
+    margin: 100px 0px 0px 0px;
+}
+
+h2{
+    line-height: 1.5;
+    font-size:24px;
+    margin: 30px 0px 30px 0px;
+}
+
+p{
+    font-size:20px;
+}
+
+pre { 
+    padding: 8px 15px; 
+    background: #f8f8f8; 
+    border-radius: 5px; 
+    border: 1px solid #e5e5e5; 
+    overflow-x: auto; 
+}
