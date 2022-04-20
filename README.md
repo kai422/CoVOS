@@ -23,7 +23,7 @@ python setup.py build_ext --inplace install
 
 ***Prepare HEVC feature decoder:** (Here are two options.)*
 
-* Compile from source code and update `{install_path}/usr/local/bin/hevc` to `hevc_feature_decoder_path` in [path_config.py](path_config.py) .
+* Compile from source code [openHEVC_feature_decoder](https://github.com/kai422/openHEVC_feature_decoder) and update `{install_path}/usr/local/bin/hevc` to `hevc_feature_decoder_path` in [path_config.py](path_config.py) .
 ```bash
 git clone https://github.com/kai422/openHEVC_feature_decoder.git
 cd openHEVC_feature_decoder
