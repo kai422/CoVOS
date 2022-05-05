@@ -1,10 +1,6 @@
 # CoVOS
 results/
-model_zoo/FRTM/weights/
-model_zoo/MiVOS/saves/
-model_zoo/STCN/saves/
-model_zoo/STM/STM_weights.pth
-
+*.pth
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
