@@ -217,9 +217,6 @@ CUDA_VISIBLE_DEVICES=0 scripts/exps/covos_yt2018_mivos.sh
 CUDA_VISIBLE_DEVICES=0 scripts/exps/covos_yt2018_stcn.sh
 ```
 
-## Training
-
-To be released.
 
 ## License and Acknowledgement
 This project is released under the GPL-3.0 License.  We refer to codes from [`MiVOS`](https://github.com/hkchengrex/MiVOS), [`FRTM-VOS`](https://github.com/andr345/frtm-vos), and [`DAVIS`](https://github.com/davisvideochallenge/davis2017-evaluation).
